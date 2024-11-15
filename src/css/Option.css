@@ -1,0 +1,32 @@
+/* Option.css */
+.option-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.option-container a {
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: large;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  width: 200px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.option-container a:hover {
+  background-color: #45a049;
+}
+
+.option-container a:active {
+  transform: scale(0.95);
+}

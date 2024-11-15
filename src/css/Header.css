@@ -1,0 +1,19 @@
+/* Header.css */
+.nav-wrapper {
+  background-color: #4CAF50;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand-logo {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.brand-logo:hover {
+  color: #f1f1f1;
+}
